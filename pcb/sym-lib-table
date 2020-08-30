@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name adv7280a-m)(type Legacy)(uri ${KIPRJMOD}/lib/adv7280a-m.lib)(options "")(descr ""))
+  (lib (name rpi_camera_conn)(type Legacy)(uri ${KIPRJMOD}/lib/rpi_camera_conn.lib)(options "")(descr ""))
+)
