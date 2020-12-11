@@ -1,0 +1,6 @@
+*.kicad_pcb linguist-detectable=true
+*.kicad_mod linguist-detectable=true
+*.kicad_wks linguist-detectable=true
+fp-lib-table linguist-detectable=true
+*.sch linguist-detectable=true
+
