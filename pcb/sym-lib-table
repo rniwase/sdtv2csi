@@ -3,4 +3,5 @@
   (lib (name "rpi_camera_conn")(type "KiCad")(uri "${KIPRJMOD}/sym/rpi_camera_conn.kicad_sym")(options "")(descr ""))
   (lib (name "TPS79901DDCR")(type "KiCad")(uri "${KIPRJMOD}/sym/TPS79901DDCR.kicad_sym")(options "")(descr ""))
   (lib (name "M51957")(type "KiCad")(uri "${KIPRJMOD}/sym/M51957.kicad_sym")(options "")(descr ""))
+  (lib (name "NJM12888F18")(type "KiCad")(uri "${KIPRJMOD}/sym/NJM12888F18.kicad_sym")(options "")(descr ""))
 )
