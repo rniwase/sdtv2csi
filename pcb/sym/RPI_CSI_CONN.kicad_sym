@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "rpi_camera_conn_bottom" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "RPI_CSI_BOTTOM" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at -6.35 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "rpi_camera_conn_bottom" (id 1) (at 0 24.13 0)
+    (property "Value" "RPI_CSI_BOTTOM" (id 1) (at 0 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at -5.08 5.08 0)
@@ -12,13 +12,13 @@
     (property "Datasheet" "" (id 3) (at -5.08 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "rpi_camera_conn_bottom_0_1"
+    (symbol "RPI_CSI_BOTTOM_0_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "rpi_camera_conn_bottom_1_1"
+    (symbol "RPI_CSI_BOTTOM_1_1"
       (pin passive line (at -7.62 17.78 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -85,11 +85,11 @@
       )
     )
   )
-  (symbol "rpi_camera_conn_top" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "RPI_CSI_TOP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at -6.35 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "rpi_camera_conn_top" (id 1) (at 0 24.13 0)
+    (property "Value" "RPI_CSI_TOP" (id 1) (at 0 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at -5.08 5.08 0)
@@ -98,13 +98,13 @@
     (property "Datasheet" "" (id 3) (at -5.08 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "rpi_camera_conn_top_0_1"
+    (symbol "RPI_CSI_TOP_0_1"
       (rectangle (start -5.08 22.86) (end 5.08 -22.86)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "rpi_camera_conn_top_1_1"
+    (symbol "RPI_CSI_TOP_1_1"
       (pin passive line (at -7.62 -17.78 0) (length 2.54)
         (name "3V3" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
