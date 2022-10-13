@@ -1,5 +1,6 @@
-# sdtv2csi - SDTV to CSI Video Decoder
+# sdtv2csi - SDTV to MIPI CSI-2 Video Decoder
 Board for converting SDTV analog video to MIPI CSI-2 using Analog Devices ADV7280A-M.
+
 ![sdtv2csi topview](misc/sdtv2csi_frontview.jpg)
 ![sdtv2csi backview](misc/sdtv2csi_backview.jpg)
 
@@ -9,6 +10,7 @@ Enable the camera interface with the raspi-config command.
 ```
 $ sudo raspi-config
 ```
+Select `3 Interface Options` -> `I1 Legacy Camera` -> `<Yes>`
 
 Add the following line to `/boot/config.txt`
 
@@ -33,7 +35,7 @@ $ sudo apt update
 $ sudo apt install ffmpeg
 ```
 
-Example of commands for video recording (Connect composite video to pin header 0-1).
+Example commands for video recording (Connect NTSC composite video signal to VIDEO_IN pin header AIN1-GND).
 ```
 $ ffmpeg -an -video_size 640x480 -r 29.97 -pix_fmt yuv420p -i /dev/video0 -c:v rawvideo out.asf 
 ```
